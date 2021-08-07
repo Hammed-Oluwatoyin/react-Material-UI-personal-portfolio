@@ -2,11 +2,12 @@
   background-color: white;
   border-radius: 6px;
   width: 100%;
+
   display: inline-block;
 }
 
 .profile_name {
-  line-height: 10px;
+  line-height: 18px;
   padding: 20px;
 }
 
@@ -17,7 +18,7 @@
 }
 .profile_name .title {
   font-size: 13px;
-  color: #777;
+  color: #000;
 }
 
 .profile_image {
@@ -28,4 +29,37 @@
 
 .profile_image img {
   width: 100%;
+}
+
+/*information */
+.profile_information {
+  top: 0;
+  left: 0;
+  margin: -40px 10px 30px;
+}
+
+.profile_information .timeline .timeline_content {
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.timelineItem_text {
+  font-size: 13.5px !important;
+  color: #000000 !important;
+  font-weight: 400 !important;
+  text-decoration: none;
+}
+
+.timelineItem_text > span {
+  color: black;
+  color: #000000 !important;
+  font-weight: 800 !important;
+  text-transform: capitalize;
+}
+
+.profile .button_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
