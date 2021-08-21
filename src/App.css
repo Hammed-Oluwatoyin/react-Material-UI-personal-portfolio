@@ -22,6 +22,10 @@
   }
 }
 
+ .mb_30 {
+    margin-bottom : 30px;
+ }
+
 .right_grid {
   margin-right: 50px;
 }
@@ -59,7 +63,7 @@
   font-size: 18px;
   font-weight: 600;
   position: relative;
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 .section_title span {

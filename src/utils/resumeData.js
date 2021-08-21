@@ -12,6 +12,47 @@ const resumeData = {
   address: "Bariga Somolu, Lagos",
   phone: "090 5881 7629",
 
+  experiences: [
+    {
+      title: "Work 1",
+      date: "2018 - Present",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+    {
+      title: "Work 2",
+      date: "2018 - 2019",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+    {
+      title: "Work 3",
+      date: "2019 - 2021",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+  ],
+  educations: [
+    {
+      title: "Work 1",
+      date: "2018 - Present",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+    {
+      title: "Work 2",
+      date: "2018 - 2019",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+    {
+      title: "Work 3",
+      date: "2019 - 2021",
+      description:
+        "Expenses as material breeding insisted building to in, Continual so distrusts pronounce by unwilling listening. things do taste on we manor",
+    },
+  ],
+
   socials: {
     Instagram: {
       link: "https://www.instagram.com",

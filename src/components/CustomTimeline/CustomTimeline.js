@@ -10,15 +10,15 @@ import "./CustomTimeline.css";
 
 const CustomeTimeline = ({ title, icon, children }) => {
   return (
-    <Timeline className={"timeline"}>
+    <Timeline className="timeline">
       {/*Item Header*/}
-      <TimelineItem className={"timeline_firstItem"}>
+      <TimelineItem className="timeline_firstItem">
         <TimelineSeparator>
-          <TimelineDot className={"timeline_dot_header"}>{icon}</TimelineDot>
           <TimelineConnector />
+          <TimelineDot className="timeline_dot_header">{icon}</TimelineDot>
         </TimelineSeparator>
-        <TimelineContent>
-          <Typography varaint="h6" className={"timeline_header"}>
+        <TimelineContent classname="timeline_content">
+          <Typography variant="h6" className="timeline_header">
             {title}
           </Typography>
         </TimelineContent>
@@ -30,9 +30,9 @@ const CustomeTimeline = ({ title, icon, children }) => {
 };
 
 export const CustomTimelineSeparator = () => (
-  <TimelineSeparator className={"separator_padding"}>
+  <TimelineSeparator className="separator_padding">
     <TimelineConnector />
-    <TimelineDot className={"timeline_dot"} />
+    <TimelineDot className="timeline_dot" />
   </TimelineSeparator>
 );
 
