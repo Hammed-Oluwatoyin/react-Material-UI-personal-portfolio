@@ -2,6 +2,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
+import { WebOutlined, AssignmentOutlined } from "@material-ui/icons";
 
 const resumeData = {
   name: "Dauda Hammed Oluwatoyin",
@@ -80,17 +81,20 @@ const resumeData = {
     {
       title: "Frontend Development",
       description: "i have been badass web developer for 10 years",
+      icon: <WebOutlined />,
     },
 
     {
       title: "Backend Development",
       description:
         "Building of sophisticated RESTful API, and GraphQL API, and ",
+      icon: <AssignmentOutlined />,
     },
 
     {
       title: "Fullstack Web Development",
       description: "Building fullstack Applications from Start to finish",
+      icon: <WebOutlined />,
     },
   ],
 
@@ -116,6 +120,7 @@ const resumeData = {
     {
       title: "SOURCE CONTROL",
       description: ["Git", "Github", "MongoDb"],
+      icon: <WebOutlined />,
     },
   ],
 

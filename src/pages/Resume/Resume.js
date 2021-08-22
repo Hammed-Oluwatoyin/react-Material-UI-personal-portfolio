@@ -1,13 +1,15 @@
 import React from "react";
 
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Icon, Paper, TextField } from "@material-ui/core";
 import CustomTimeline, {
   CustomTimelineSeparator,
-  CustomTimeLineSeparator,
 } from "../../components/CustomTimeline/CustomTimeline";
 import WorkIcon from "@material-ui/icons/Work";
 import TimelineItem from "@material-ui/lab/TimelineItem";
 import TimelineContent from "@material-ui/lab/TimelineContent";
+import SchoolIcon from "@material-ui/icons/School";
+import TimelineDot from "@material-ui/lab/TimelineDot";
+import { WebOutlined, AssignmentOutlined } from "@material-ui/icons";
 
 import "./Resume.css";
 import resumeData from "../../utils/resumeData";
@@ -91,7 +93,32 @@ const Resume = () => {
       </Grid>
 
       {/*Services*/}
-      <Grid container className="section"></Grid>
+      <Grid container className="section">
+        <Grid item className="section_title mb_30">
+          <span></span>
+          <h6 className="section_title_text">My Services</h6>
+        </Grid>
+
+        <Grid item xs={12}>
+          <Grid container spacing={3} justify="space-around">
+            {resumeData.services.map((service) => (
+              <Grid item xs={12} sm={12} md={4}>
+                <div className="service">
+                  <Icon className="service_icon">
+                    <WebOutlined />
+                  </Icon>
+                  <Typography className="service_title" variant="h6">
+                    {service.title}
+                  </Typography>
+                  <Typography className="service_description">
+                    {service.description}
+                  </Typography>
+                </div>
+              </Grid>
+            ))}
+          </Grid>
+        </Grid>
+      </Grid>
 
       {/*Skills*/}
       <Grid container className="section"></Grid>
