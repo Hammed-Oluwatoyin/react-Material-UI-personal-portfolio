@@ -8,6 +8,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contact/Contact";
+import Services from "./pages/Services/Services";
 
 const useStyles = makeStyles({
   root: {
@@ -31,6 +33,12 @@ function App() {
               <Switch>
                 <Route path="/portfolio">
                   <Portfolio />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+                <Route path="/services">
+                  <Services />
                 </Route>
                 <Route path="/">
                   <Resume />

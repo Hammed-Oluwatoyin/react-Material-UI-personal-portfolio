@@ -55,6 +55,26 @@ const Header = (props) => {
           >
             Portfolio
           </Nav.Link>
+
+          {/* contact form Link */}
+          <Nav.Link
+            as={NavLink}
+            to="/contact"
+            className={
+              pathName === "/contact" ? "header_link_active" : "header_link"
+            }
+          >
+            Contact
+          </Nav.Link>
+          <Nav.Link
+            as={NavLink}
+            to="/services"
+            className={
+              pathName === "/services" ? "header_link_active" : "header_link"
+            }
+          >
+            Services
+          </Nav.Link>
         </Nav>
         <div className="header_right">
           {Object.keys(resumeData.socials).map((key) => (

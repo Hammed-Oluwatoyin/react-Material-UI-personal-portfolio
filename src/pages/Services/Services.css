@@ -1,0 +1,62 @@
+/* Services */
+.service {
+  height: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service .service_title {
+  margin: 10px !important;
+  font-size: 20px !important;
+}
+
+.service .service_description {
+  color: #989898 !important;
+  border-color: var(--main-color) !important;
+  margin-right: 0px !important;
+  text-align: center;
+}
+
+.service_icon {
+  font-size: 100px !important;
+  margin-right: 0 !important;
+  font-weight: 300 !important;
+  color: darkslategray !important;
+}
+
+/* End of Services */
+
+/*Skills */
+.skill {
+  border-radius: 8px;
+  margin-top: 5px;
+  padding: 20px;
+
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  min-height: 186px;
+  height: 100%;
+}
+
+.skill .skill_title {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  line-height: 30px !important;
+}
+
+.skill .skill_description {
+  display: flex;
+  align-items: center;
+  color: #989898 !important;
+  font-weight: 400 !important;
+  line-height: 10px !important;
+  font-size: 15px;
+}
+
+.skill .skill_description .timeline_dot {
+  color: black !important;
+  border-color: var(--main-color) !important;
+  padding: 2px !important;
+  margin-right: 5px !important;
+}
+
+/* End of Skills*/

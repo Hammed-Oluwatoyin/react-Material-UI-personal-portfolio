@@ -111,15 +111,15 @@ const resumeData = {
     },
     {
       title: "BACK-END",
-      description: ["NodeJS", "Java", "Python", "Solidity"],
+      description: ["NodeJS", "Express", "HTTPS", "REST API", "Mongoose"],
     },
     {
       title: "DATABASES",
-      description: ["firebase", "Ms SQL Server", "NySQL", "MongoDB"],
+      description: ["Firebase", "MySQL", "PostgreSQL", "MongoDB", "HarperDB"],
     },
     {
       title: "SOURCE CONTROL",
-      description: ["Git", "Github", "MongoDb"],
+      description: ["Git", "Github", "BitBucket", "Gitlab"],
       icon: <WebOutlined />,
     },
   ],
