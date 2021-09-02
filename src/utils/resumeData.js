@@ -124,6 +124,57 @@ const resumeData = {
     },
   ],
 
+  projects: [
+    {
+      tag: "React",
+      image: "../../assets/images/bg.jpg",
+      title: "React Project 1",
+      caption: "A short description for the project",
+      description: "This is my project description, please fill it in",
+      link: [
+        { link: "https://www.google.com", icon: <youtubeIcon /> },
+        { link: "https://www.google.com", icon: <gitHubIcon /> },
+        { link: "https://www.google.com", icon: <LinkedinIcon /> },
+      ],
+    },
+    {
+      tag: "Python",
+      image: "../../assets/images/bg.jpg",
+      title: "Python Project 1",
+      caption: "A short description for the project",
+      description: "This is my project description, please fill it in",
+      link: [
+        { link: "https://www.google.com", icon: <youtubeIcon /> },
+        { link: "https://www.google.com", icon: <gitHubIcon /> },
+        { link: "https://www.google.com", icon: <LinkedinIcon /> },
+      ],
+    },
+    {
+      tag: "Flutter",
+      image: "../../assets/images/bg.jpg",
+      title: "Flutter Project 1",
+      caption: "A short description for the project",
+      description: "This is my project description, please fill it in",
+      link: [
+        { link: "https://www.google.com", icon: <youtubeIcon /> },
+        { link: "https://www.google.com", icon: <gitHubIcon /> },
+        { link: "https://www.google.com", icon: <LinkedinIcon /> },
+      ],
+    },
+    {
+      tag: "Java",
+      image: "../../assets/images/bg.jpg",
+      title: "Java Project 1",
+      caption: "A short description for the project",
+      description: "This is my project description, please fill it in",
+      link: [
+        { link: "https://www.google.com", icon: <youtubeIcon /> },
+        { link: "https://www.google.com", icon: <gitHubIcon /> },
+        { link: "https://www.google.com", icon: <LinkedinIcon /> },
+      ],
+    },
+  ],
+
   about: `When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me.
 
  When I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us
