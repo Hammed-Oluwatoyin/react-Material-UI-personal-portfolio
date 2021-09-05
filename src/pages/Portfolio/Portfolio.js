@@ -15,6 +15,7 @@ import {
   DialogActions,
 } from "@material-ui/core";
 import "./Portfolio.css";
+import image from "../../assets/images/bg2.jpg";
 import resumeData from "../../utils/resumeData";
 
 const Portfolio = () => {
@@ -66,7 +67,7 @@ const Portfolio = () => {
           {resumeData.projects.map((project) => (
             <>
               {tabValue === project.tag || tabValue === "All" ? (
-                <Grid item xs={6}>
+                <Grid item xs={12} sm={6} md={4}>
                   <Grow in timeout={1000}>
                     <Card
                       className="customCard"
@@ -75,15 +76,19 @@ const Portfolio = () => {
                       <CardActionArea>
                         <CardMedia
                           className="customCard_image"
-                          image={project.title}
+                          image={image}
+                          title={project.title}
                         />
                         <CardContent>
-                          <Typography className="customCard_title">
+                          <Typography
+                            variant="body2"
+                            className="customCard_title"
+                          >
                             {project.title}
                           </Typography>
                           <Typography
-                            variant="body2"
-                            className="customCard_description"
+                            variant="caption"
+                            className="customCard_caption"
                           >
                             {project.caption}
                           </Typography>
@@ -101,7 +106,7 @@ const Portfolio = () => {
         <DialogTitle onClose={() => setProjectDialog(false)}>
           {projectDialog.title}
         </DialogTitle>
-        <img src="" alt="" className="projectDialog_image" />
+        <img src={projectDialog.image} alt="" className="projectDialog_image" />
         <DialogContent>
           <Typography className="projectDialog_description">
             {projectDialog.description}

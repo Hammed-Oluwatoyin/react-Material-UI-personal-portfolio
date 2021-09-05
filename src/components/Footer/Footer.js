@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_left">
-        <Typography classname="footer_name">{resumeData.name}</Typography>
+        <Typography className="footer_name">{resumeData.name}</Typography>
       </div>
       <div className="footer_right">
         <Typography className="footer_copyright">

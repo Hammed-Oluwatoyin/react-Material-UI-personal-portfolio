@@ -3,6 +3,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
 import { WebOutlined, AssignmentOutlined } from "@material-ui/icons";
+import image from "../assets/images/bg2.jpg";
 
 const resumeData = {
   name: "Dauda Hammed Oluwatoyin",
@@ -127,7 +128,7 @@ const resumeData = {
   projects: [
     {
       tag: "React",
-      image: "../../assets/images/bg.jpg",
+      image: image,
       title: "React Project 1",
       caption: "A short description for the project",
       description: "This is my project description, please fill it in",
@@ -139,7 +140,7 @@ const resumeData = {
     },
     {
       tag: "Python",
-      image: "../../assets/images/bg.jpg",
+      image: image,
       title: "Python Project 1",
       caption: "A short description for the project",
       description: "This is my project description, please fill it in",
@@ -151,7 +152,7 @@ const resumeData = {
     },
     {
       tag: "Flutter",
-      image: "../../assets/images/bg.jpg",
+      image: image,
       title: "Flutter Project 1",
       caption: "A short description for the project",
       description: "This is my project description, please fill it in",
@@ -163,7 +164,7 @@ const resumeData = {
     },
     {
       tag: "Java",
-      image: "../../assets/images/bg.jpg",
+      image: image,
       title: "Java Project 1",
       caption: "A short description for the project",
       description: "This is my project description, please fill it in",
